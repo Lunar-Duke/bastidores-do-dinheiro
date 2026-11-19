@@ -1,2 +1,4 @@
 yt-dlp>=2026.10.26
 faster-whisper>=1.1
+# av 19 removeu um argumento que o faster-whisper 1.2.1 usa: --legenda quebra com TypeError
+av<19
